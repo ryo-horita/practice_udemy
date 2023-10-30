@@ -8,6 +8,6 @@
 <style scoped>
 h1 {
   font-size: 20px;
-  color: red;
+  color: blueviolet;
 }
 </style>
