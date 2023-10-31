@@ -1,13 +1,19 @@
 <template>
   <div>
-    <h1>Hello Nuxt 3!</h1>
-    <p>Test</p>
+    <h1>{{ message }}</h1>
   </div>
 </template>
 
-<style scoped>
-h1 {
-  font-size: 20px;
-  color: blueviolet;
+<script>
+export default {
+  data() {
+    return {
+      message: 'Hello World!'
+    };
+  }
 }
+</script>
+
+<style scoped>
+
 </style>
