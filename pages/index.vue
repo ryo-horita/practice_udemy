@@ -1,19 +1,7 @@
 <template>
   <div>
-    <h1>{{ message }}</h1>
+    <h1>Top Page</h1>
+    <hr>
+    <NuxtLink to="/price">Price</NuxtLink>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      message: 'Hello World!'
-    };
-  }
-}
-</script>
-
-<style scoped>
-
-</style>
